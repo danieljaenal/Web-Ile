@@ -810,7 +810,8 @@ nav .link-title:last-child {
   margin-left: auto;
   margin-right: auto;
   max-width: 800px;
-  padding-bottom: 60px;
+  /*esto habrá que cambiarlo si el primer proyecto empieza muy arriba ---------------------------------*/
+  padding-bottom: 1px;
   padding-top: 60px;
   width: 100%; }
 
