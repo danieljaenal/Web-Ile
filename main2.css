@@ -1476,7 +1476,8 @@ nav {
       font-family: 'object-fit: cover;';
       height: calc(100% + 2px);
       left: 50%;
-      object-fit: cover;
+      /*object-fit: cover;*/
+      object-fit: scale-down;
       position: absolute;
       top: 50%;
       transform: translate(-50%, -50%);
