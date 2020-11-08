@@ -1897,3 +1897,32 @@ nav {
 }
 
 
+
+@media (max-width: 600px) {
+.casa_render_fit {
+  object-fit: cover;
+  object-position: 0px 20%;
+}
+
+}
+
+@media (min-width: 601px) and (max-width: 1023px){
+  .casa_render_fit {
+    object-fit: scale-down;
+  }
+}
+
+@media (min-width: 1024px){
+  .casa_render_fit{
+    object-fit: cover;
+    padding-bottom: 30px;
+    object-position: 0px 20%;
+  }
+}
+
+@media (min-width: 1026px){
+  .casa_render_fit {
+    object-fit: cover;
+    padding-bottom: 30px;
+  }
+}
