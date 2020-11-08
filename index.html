@@ -18,7 +18,16 @@
   console.warn('Typekit not loaded.');
   }
   "></script><style type="text/css">@font-face{font-family:fbft;src:url(https://use.typekit.net/af/801a74/000000000000000000012126/27/l?subset_id=2&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/801a74/000000000000000000012126/27/d?subset_id=2&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/801a74/000000000000000000012126/27/a?subset_id=2&fvd=n3&v=3) format("opentype");font-weight:300;font-style:normal;font-display:auto;}@font-face{font-family:fbft;src:url(https://use.typekit.net/af/9cb78a/0000000000000000000118ad/27/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/9cb78a/0000000000000000000118ad/27/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/9cb78a/0000000000000000000118ad/27/a?subset_id=2&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;font-display:auto;}@font-face{font-family:ftnk;src:url(https://use.typekit.net/af/849347/000000000000000000010093/27/l?subset_id=2&fvd=i3&v=3) format("woff2"),url(https://use.typekit.net/af/849347/000000000000000000010093/27/d?subset_id=2&fvd=i3&v=3) format("woff"),url(https://use.typekit.net/af/849347/000000000000000000010093/27/a?subset_id=2&fvd=i3&v=3) format("opentype");font-weight:300;font-style:italic;font-display:auto;}@font-face{font-family:ftnk;src:url(https://use.typekit.net/af/1eb35a/000000000000000000010090/27/l?subset_id=2&fvd=i5&v=3) format("woff2"),url(https://use.typekit.net/af/1eb35a/000000000000000000010090/27/d?subset_id=2&fvd=i5&v=3) format("woff"),url(https://use.typekit.net/af/1eb35a/000000000000000000010090/27/a?subset_id=2&fvd=i5&v=3) format("opentype");font-weight:500;font-style:italic;font-display:auto;}@font-face{font-family:ftnk;src:url(https://use.typekit.net/af/ae4f6c/000000000000000000010096/27/l?subset_id=2&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/ae4f6c/000000000000000000010096/27/d?subset_id=2&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/ae4f6c/000000000000000000010096/27/a?subset_id=2&fvd=n3&v=3) format("opentype");font-weight:300;font-style:normal;font-display:auto;}@font-face{font-family:ftnk;src:url(https://use.typekit.net/af/9b05f3/000000000000000000013365/27/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/9b05f3/000000000000000000013365/27/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/9b05f3/000000000000000000013365/27/a?subset_id=2&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;font-display:auto;}@font-face{font-family:ftnk;src:url(https://use.typekit.net/af/309dfe/000000000000000000010091/27/l?subset_id=2&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/309dfe/000000000000000000010091/27/d?subset_id=2&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/309dfe/000000000000000000010091/27/a?subset_id=2&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;font-display:auto;}</style>
-<style type="text/css"></style></head>
+<style type="text/css"></style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+<script>
+   $(document).on("click touch", ".js-hamburger, .js-close-responsive-nav", function() {
+      $(document.body).toggleClass("show-responsive-nav");
+    });
+</script>
+
+</head>
 
 <style>
 div.ajuste_titulo_pantalla {
@@ -27,7 +36,7 @@ padding: 0px;
 }
 @media screen and (min-width: 601px) {
 div.ajuste_titulo_pantalla {
-font-size: 80px;
+font-size: 60px;
 }
 }
 @media screen and (max-width: 600px) {
@@ -43,15 +52,16 @@ padding: 0px;
 }
 @media screen and (min-width: 601px) {
 div.ajuste_subtitulo_pantalla {
-font-size: 40px;
+font-size: 30px;
 }
 }
 @media screen and (max-width: 600px) {
 div.ajuste_subtitulo_pantalla {
-font-size: 20px;
+font-size: 15px;
 }
 }
 </style>
+
 <body class="link-transition disable-download">  <div class="page-background-video page-background-video-with-panel">
 </div>
 <div class="js-responsive-nav">
@@ -133,8 +143,8 @@ font-size: 20px;
                   <div class="cover-image-wrap" >
                     <div class="cover-image">
                       <div class="cover cover-normal">
-                        <img class="cover__img js-lazy image-loaded"   src="super\render2.jpg" srcset="super\render2.jpg640w, super\render2.jpg 1280w, super\render2.jpg 1366w, super\render2.jpg 1920w, super\render2.jpg 2560w, super\render2.jpg 5120w"
-                        sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, 100vw" style="object-fit: contain;">
+                        <img class="cover__img js-lazy image-loaded image-fit"  src="super\render2.jpg" srcset="super\render2.jpg 640w, super\render2.jpg 1280w, super\render2.jpg 1366w, super\render2.jpg 1920w, super\render2.jpg 2560w, super\render2.jpg 5120w"
+                        sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, 100vw" >
                       </div>
                     </div>
                   </div>
@@ -154,7 +164,7 @@ font-size: 20px;
                   <div class="cover-image-wrap">
                     <div class="cover-image">
                       <div class="cover cover-normal">
-                        <img class="cover__img js-lazy image-loaded" src="casa_render\noche1.jpg" srcset="casa_render\noche1.jpg 640w, casa_render\noche1.jpg 1280w, casa_render\noche1.jpg 1366w, casa_render\noche1.jpg 1920w, casa_render\noche1.jpg 2560w, casa_render\noche1.jpg 5120w"
+                        <img class="cover__img js-lazy image-loaded image-fit" src="casa_render\noche1.jpg" style="object-position:0px 20%" srcset="casa_render\noche1.jpg 640w, casa_render\noche1.jpg 1280w, casa_render\noche1.jpg 1366w, casa_render\noche1.jpg 1920w, casa_render\noche1.jpg 2560w, casa_render\noche1.jpg 5120w"
                         sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, 100vw">
                       </div>
                     </div>
@@ -175,7 +185,7 @@ font-size: 20px;
                   <div class="cover-image-wrap" >
                     <div class="cover-image">
                       <div class="cover cover-normal" >
-                        <img class="cover__img js-lazy image-loaded" style="object-fit: scale-down;"  src="templete\templete_portada.jpg" srcset="
+                        <img class="cover__img js-lazy image-loaded image-fit"  src="templete\templete_portada.jpg" srcset="
                         templete\templete_portada.jpg640w,
                         templete\templete_portada.jpg 1280w,
                         templete\templete_portada.jpg 1366w,
@@ -265,9 +275,9 @@ font-size: 20px;
   };
   </script>
   <script type="text/javascript">var __config__ = {"page_id":"p5a27d469067a397fc56cc145671d2984561ff2fb197fb168bb19f","theme":{"name":"jess"},"pageTransition":true,"linkTransition":true,"disableDownload":true,"localizedValidationMessages":{"required":"This field is required","Email":"This field must be a valid email address"},"lightbox":{"enabled":true,"color":{"opacity":0.94,"hex":"#fff"}},"cookie_banner":{"enabled":false}};</script>
-  <script type="text/javascript" src="programa.js"></script>
-  <script type="text/javascript" src="programa2.js"></script>
-  <script type="text/javascript" src="/site/translations?cb=c39e815b85178010fb1aa1abdd329ebdfdfd193a"></script>
+  <!-- <script type="text/javascript" src="./main.js"></script> -->
+  <!-- <script type="text/javascript" src="./programa2.js"></script> -->
+  <!-- <script type="text/javascript" src="/site/translations?cb=c39e815b85178010fb1aa1abdd329ebdfdfd193a"></script> -->
   
   <div class="js-lightbox-wrap offscreen" id="lightbox-wrap">
   <div class="js-blocking" id="lightbox-blocking">
