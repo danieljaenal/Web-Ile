@@ -979,7 +979,7 @@ nav {
     padding-top: 0px;
     padding-bottom: 30px;
     padding-left: 0px;
-    padding-right: 15px; }
+    padding-right: 0px; }
   .pf-footer-social a:hover svg {
     fill: #15a3c5;
     opacity: 1; }
@@ -993,13 +993,13 @@ nav {
       padding-top: 0px;
       padding-bottom: 24px;
       padding-left: 0px;
-      padding-right: 12px; } }
+      padding-right: 0px; } }
   @media (max-width: 540px) {
     .pf-footer-social li {
       padding-top: 0px;
       padding-bottom: 20px;
       padding-left: 0px;
-      padding-right: 10px; } }
+      padding-right: 0px; } }
 
 .masthead-social {
   text-align: center; }
@@ -1889,5 +1889,11 @@ nav {
   }
 }
 
+@media (min-width: 1026px){
+  .image-fit {
+    object-fit: cover;
+    padding-bottom: 30px;
+  }
+}
 
 
