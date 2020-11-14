@@ -97,7 +97,7 @@ html.lightbox-zoomed #lightbox-img-wrap .lightbox-extra {
 
 .lightbox-link,
 .lightbox-content.zoomable {
-  cursor: zoom-in; }
+  /*cursor: zoom-in*/; }
 
 #lightbox-wrap .lightbox-contents {
   -moz-user-select: none;
